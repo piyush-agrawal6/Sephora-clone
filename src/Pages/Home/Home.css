@@ -1,0 +1,164 @@
+.HomeSlider {
+  padding: 6px 4px;
+}
+.HomeSlider1 {
+  background-color: #8ec9e9;
+  padding: 0.5rem;
+}
+.HomeSlider2 {
+  background-color: #dcb796;
+  padding: 0.5rem;
+}
+.HomeSlider3 {
+  background-color: #01474f;
+  padding: 0.5rem;
+}
+.HomeSlider4 {
+  background-color: #59a19e;
+  padding: 0.5rem;
+}
+.HomeSlider1 p,
+.HomeSlider2 p,
+.HomeSlider3 p,
+.HomeSlider4 p {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.HomeSlider1 p:hover,
+.HomeSlider2 p:hover,
+.HomeSlider3 p:hover,
+.HomeSlider4 p:hover {
+  text-decoration: underline;
+}
+.HomeSlider1 h1,
+.HomeSlider2 h1,
+.HomeSlider3 h1,
+.HomeSlider4 h1 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.HomeSlider span {
+  cursor: pointer;
+  color: #000;
+}
+.HomeSlider3 h1 {
+  color: white;
+}
+.HomeSlider3 p {
+  color: rgb(235, 235, 235);
+}
+.HomeSlider3 span {
+  color: white;
+}
+.homePro {
+  width: 85%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.homeHead {
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+}
+.hc1 {
+  width: 100%;
+  margin: 2rem 0;
+}
+.proCon {
+  padding: 1rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin: 3px 5px;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.proCon:hover {
+  cursor: pointer;
+}
+.proCon > div {
+  padding: 0.6rem;
+}
+.proCon h1 {
+  font-size: 13px;
+  color: #000;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.proCon p {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.proCon > div:nth-child(1) {
+  position: relative;
+}
+.homeLook {
+  width: 90%;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  bottom: 3px;
+  background-color: rgba(0, 0, 0, 0.701);
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.proCon:hover .homeLook {
+  opacity: 1;
+}
+.homeFeatures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  margin: 3px 5px;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  height: 150px;
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}
+.homeFeatures img {
+  width: 45%;
+}
+.homeFeatures > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .HomeSlider1,
+  .HomeSlider2,
+  .HomeSlider3,
+  .HomeSlider4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homePro {
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .homeHead {
+    font-size: 17px;
+  }
+  .hc1 {
+    margin: 1rem 0;
+  }
+  .homeP {
+    font-size: 12px;
+  }
+}
