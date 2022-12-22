@@ -86,7 +86,7 @@ Server - https://github.com/piyush-agrawal6/Shopaholic-Backend
 
 Presentation - https://drive.google.com/file/d/1dfOVHAxlT2gc2QzNTzBp5t9_Mdu7MP4a/view
 
-Blog -
+Blog - https://medium.com/p/2646749b3856
 
 ## Contributors
 
