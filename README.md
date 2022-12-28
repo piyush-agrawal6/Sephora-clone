@@ -40,13 +40,17 @@ Sephora is an online e-commerce website for personal care and beauty products. S
 - **React**
 - **Redux Thunk**
 - **Axios**
+- **CSS**
 - **Chakra UI**
+- **React Icons**
 
 **Server:**
 
 - **Node Js**
 - **Mongo DB**
 - **Express Js**
+- **JWT**
+- **Validator**
 - **Render**
 
 
